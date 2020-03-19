@@ -24,8 +24,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is the description of your website, unlock your imagination!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_path: https://twitter.com/my_twitter
+facebook_path: https://facebook.com/my_facebook
+instagram_path: https://instagram.com/my_instagram
+youtube_path: https://youtube.com/channel/my_youtube
+github_path: https://github.com/my_github
 
 # Build settings
 permalink: pretty  # This allow to avoid the extension on the file
