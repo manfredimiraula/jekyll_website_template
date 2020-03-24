@@ -1,0 +1,14 @@
+<!--The charset attribute specifies the character encoding for the HTML document.-->  
+<meta charset="utf-8"> 
+<!--Here we specify some compatibility settings for the user browser-->  
+<meta content="IE-edge, chrome=1" http-equiv="X-UA-Compatable">
+<!--Set the viewable frame for the end user-->  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--This will allow us to use the variable {{ site.description }} to import the description we added in our config.yaml file-->  
+<meta name="description" content="{{ site.description }}">
+<!--This will allow us to use the variable {{ site.title }} to import the title we added in our config.yaml file--> 
+<title>{{ site.title  }}</title>
+<!--Setting the path to the icon file that we will use to label our website--> 
+<link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
+<!--Here we are setting our stylesheet with some css files. --> 
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/styles.sass">

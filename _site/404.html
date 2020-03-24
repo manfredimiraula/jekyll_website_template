@@ -1,4 +1,25 @@
-<style type="text/css" media="screen">
+<!--Specify the Doc type as well as some minimal html structure-->  
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Import config from the head.html file-->  
+        <!--The charset attribute specifies the character encoding for the HTML document.-->  
+<meta charset="utf-8"> 
+<!--Here we specify some compatibility settings for the user browser-->  
+<meta content="IE-edge, chrome=1" http-equiv="X-UA-Compatable">
+<!--Set the viewable frame for the end user-->  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--This will allow us to use the variable This is the description of your website, unlock your imagination! to import the description we added in our config.yaml file-->  
+<meta name="description" content="This is the description of your website, unlock your imagination!">
+<!--This will allow us to use the variable The title of your website to import the title we added in our config.yaml file--> 
+<title>The title of your website</title>
+<!--Setting the path to the icon file that we will use to label our website--> 
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<!--Here we are setting our stylesheet with some css files. --> 
+<link rel="stylesheet" type="text/css" href="/assets/css/styles.sass">
+    </head>
+    <body>
+        <style type="text/css" media="screen">
   .container {
     margin: 10px auto;
     max-width: 600px;
@@ -18,3 +39,11 @@
   <p><strong>Page not found :(</strong></p>
   <p>The requested page could not be found.</p>
 </div>
+
+        <!--Import js functions--> 
+        <!--here we want to add the file name of the jquery file you downloaded previously. At the time of writing, the jquery version I'm using is jquery-3.4.1.min.js--> 
+<script type="tex/javascript" src="/assets/js/jquery-3.4.1.min.js"></script>
+<!--add the link to the custom js functions--> 
+<script type="tex/javascript" src="/assets/js/functions.js"></script>
+    </body>    
+</html>

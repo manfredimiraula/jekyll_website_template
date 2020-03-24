@@ -1,0 +1,13 @@
+<!--Specify the Doc type as well as some minimal html structure-->  
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Import config from the head.html file-->  
+        {% include head.html %}
+    </head>
+    <body>
+        {{ content }}
+        <!--Import js functions--> 
+        {% include js-link.html %}
+    </body>    
+</html>
